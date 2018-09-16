@@ -1,4 +1,6 @@
-package com.yumingchuan.testdemo;
+package com.yumingchuan.testdemo.single;
+
+import com.yumingchuan.testdemo.utils.LogUtils;
 
 /**
  * Created by yumingchuan on 2018/9/16.用法是实现接口

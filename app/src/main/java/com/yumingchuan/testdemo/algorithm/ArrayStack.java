@@ -1,4 +1,4 @@
-package com.yumingchuan.testdemo;
+package com.yumingchuan.testdemo.algorithm;
 
 /**
  * Created by yumingchuan on 2018/9/14.java用数组实现栈

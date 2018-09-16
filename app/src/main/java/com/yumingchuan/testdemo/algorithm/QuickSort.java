@@ -1,4 +1,4 @@
-package com.yumingchuan.testdemo;
+package com.yumingchuan.testdemo.algorithm;
 
 /**
  * Created by yumingchuan on 2018/9/16.最好的时间复杂度为nlogn.最坏n^2

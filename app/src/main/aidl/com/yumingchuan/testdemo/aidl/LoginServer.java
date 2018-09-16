@@ -7,7 +7,7 @@ import android.os.IBinder;
 import android.os.RemoteException;
 import android.support.annotation.Nullable;
 
-import com.yumingchuan.testdemo.LogUtils;
+import com.yumingchuan.testdemo.utils.LogUtils;
 
 /**
  * Created by yumingchuan on 2018/9/17.

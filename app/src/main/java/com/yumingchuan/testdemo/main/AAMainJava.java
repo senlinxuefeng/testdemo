@@ -1,5 +1,11 @@
-package com.yumingchuan.testdemo;
+package com.yumingchuan.testdemo.main;
 
+
+import com.yumingchuan.testdemo.javatt.TestJava1;
+import com.yumingchuan.testdemo.algorithm.ArrayStack;
+import com.yumingchuan.testdemo.algorithm.QuickSort;
+import com.yumingchuan.testdemo.single.EnumSingleton;
+import com.yumingchuan.testdemo.utils.LogUtils;
 
 /**
  * Created by yumingchuan on 2018/9/14.

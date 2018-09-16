@@ -1,4 +1,4 @@
-package com.yumingchuan.testdemo;
+package com.yumingchuan.testdemo.javatt;
 
 /**
  * Created by yumingchuan on 2018/9/14.
@@ -7,6 +7,4 @@ package com.yumingchuan.testdemo;
 public class TestJava1 {
     public int a = 10;
     public int b = a + 3;
-
-
 }

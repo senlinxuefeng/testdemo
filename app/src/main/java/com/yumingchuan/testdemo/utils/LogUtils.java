@@ -1,4 +1,4 @@
-package com.yumingchuan.testdemo;
+package com.yumingchuan.testdemo.utils;
 
 /**
  * Created by yumingchuan on 2018/9/16.
