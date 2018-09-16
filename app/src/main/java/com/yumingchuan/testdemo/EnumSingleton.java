@@ -1,13 +1,22 @@
 package com.yumingchuan.testdemo;
 
 /**
- * Created by yumingchuan on 2018/9/16.
+ * Created by yumingchuan on 2018/9/16.用法是实现接口
  */
 
-public enum EnumSingleton {
-    INSTANCE;
+public enum EnumSingleton implements EnumInterfaceTest {
+    INSTANCE {
+        @Override
+        public void enumTest() {
+            LogUtils.i("枚举单例实现接口的方式------", this.getClass().getMethods()[0].getName());
+        }
+    };
+
+    /**
+     * 枚举里边直接加入方法
+     */
     public void doSomething() {
-        System.out.print("枚举单例模式的测试--------");
+        LogUtils.i("枚举单例模式中直接加入方法--------");
     }
 
     public static EnumSingleton getInstance() {
