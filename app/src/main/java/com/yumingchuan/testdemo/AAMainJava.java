@@ -1,5 +1,6 @@
 package com.yumingchuan.testdemo;
 
+
 /**
  * Created by yumingchuan on 2018/9/14.
  */
@@ -17,7 +18,7 @@ public class AAMainJava {
         LogUtils.i("出栈的值为：  ", arrayStack.peek() + "");
         arrayStack.pop();
 
-        //枚举单例
+        //枚举单例:https://www.jianshu.com/p/4e8ca4e2af6c
         EnumSingleton.getInstance().enumTest();
         EnumSingleton.getInstance().doSomething();
 
@@ -29,10 +30,10 @@ public class AAMainJava {
             LogUtils.i(arr[i] + "");
         }
 
+        //aidl的使用
+//        LoginClient.getInstance().bindServer(TestApp.getInstance());
+
         //生产者消费者
-
-
-
 
 
     }
