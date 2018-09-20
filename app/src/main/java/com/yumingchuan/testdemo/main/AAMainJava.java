@@ -5,6 +5,7 @@ import com.yumingchuan.testdemo.algorithm.ArrayStack;
 import com.yumingchuan.testdemo.algorithm.QuickSort;
 import com.yumingchuan.testdemo.algorithm.X_n;
 import com.yumingchuan.testdemo.javatt.TestJava1;
+import com.yumingchuan.testdemo.pattern.PatternTest;
 import com.yumingchuan.testdemo.single.EnumSingleton;
 import com.yumingchuan.testdemo.thread.ProducerCosumerBlockQuene;
 import com.yumingchuan.testdemo.utils.LogUtils;
@@ -15,7 +16,7 @@ import com.yumingchuan.testdemo.utils.LogUtils;
 
 public class AAMainJava {
     public static void main(String[] args) {
-        int type = 6;
+        int type = 7;
         switch (type) {
             case 0:
                 //测试成员变量是否可以赋值
@@ -64,6 +65,12 @@ public class AAMainJava {
             case 6:
                 LogUtils.i("2的3次方是：" + X_n.power(2, 3));
                 break;
+
+            case 7:
+                PatternTest patternTest = new PatternTest();
+                patternTest.test();
+                break;
+
 
             default:
 

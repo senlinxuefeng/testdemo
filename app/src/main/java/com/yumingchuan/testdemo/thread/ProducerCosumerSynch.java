@@ -50,6 +50,7 @@ public class ProducerCosumerSynch {
         }
     }
 
+
     private class Consumer implements Runnable {
 
         @Override
